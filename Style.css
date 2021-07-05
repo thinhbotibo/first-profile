@@ -1,0 +1,205 @@
+
+body {
+     
+    min-height: auto;
+    background-color: rgb(228, 228, 228); /* Default browser not supporting*/
+    padding-bottom: 100px;
+    overflow-x: hidden;
+      
+}
+
+
+
+
+.body-body{
+    text-align: left;
+    padding: 130px;
+    background-image: linear-gradient(rgb(230, 220, 220),rgb(255, 255, 255));
+    color: white;
+    font-size: 16px;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+
+    border-bottom: 2px solid grey;
+
+
+}
+
+
+.body-header{
+    background: black;
+    height: 200px;
+    font-weight: auto;
+    border-radius: 5px;
+    margin:center;
+}
+
+.body-body .image1{
+    text-align: center;
+    width: 90%;
+    /* Container's dimensions */
+    height: 400px;
+    background: url("Back-ground.jpg") center center no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: -100px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    align-content: center
+}
+
+.body-body .image {
+    text-align: center;
+    width: 200px;
+    /* Container's dimensions */
+    height: 200px;
+    border-radius: 75%;
+    
+    box-shadow: 0 0 0 5px rgb(17, 14, 14);
+    background: url("Profile-picture.jpg") center center no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: -375px;
+    margin-bottom: -100px;
+    align-content: center;
+}
+.text {
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 40px;    
+    position: absolute center;
+    text-align: center;
+    padding-left: 0%;
+    color: rgb(250, 248, 248);
+    margin-top: 100px;
+}
+  
+.text1 {
+    font-family: raleway;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: -100px;
+    color: rgb(17, 0, 255);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-about{
+    display: 2;
+    width: 800px;
+    height:fit-content;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-left:30px;
+    margin-right:auto;
+    background-color: rgb(228, 228, 228);
+    height: fit-content;
+}
+
+.about{
+    width: auto;
+    height: fit-content;
+    border: 0.5 px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.about h2{
+    text-align:left;
+    font-size:16;
+    margin-top: 10px;
+    color: rgb(151, 151, 151);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.about h4{
+    text-align:left;
+    font-size:12;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.Information{
+    display: 1;
+    width: 450px;
+    height: fit-content;
+    border: 3px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left:auto;
+    padding: 10px;
+    margin-left:auto;
+    background-color: rgb(255, 255, 255);
+}
+.Information h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Information-text img{
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.Information-text{
+    width: auto;
+    height:30px;
+    border: 3px solid grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: auto;
+    height: fit-content;
+}
+.Information-text label{
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 20px;
+    width:30px;  
+}
+.Information-text  {
+    font-family: raleway;
+    vertical-align: auto;
+    font-size: 20px;
+  
+    background-color: rgb(255, 254, 254);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 90px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 65%;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+} 
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
