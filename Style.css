@@ -1,12 +1,11 @@
-html{
-    width: auto;
-}
+
 body {
      
     min-height: auto;
     background-color: rgb(228, 228, 228); /* Default browser not supporting*/
     padding-bottom: 100px;
     overflow-x: hidden;
+    width: 160%;
       
 }
 
@@ -43,7 +42,6 @@ body {
     width: 90%;
     /* Container's dimensions */
     height: 30rem;
-    max-width: 100rem;
     background: url("Back-ground.jpg") center center no-repeat;
     background-size: cover;
     margin: auto;
@@ -90,7 +88,6 @@ body {
 
 .flex-container {
     display: flex;
-    max-width: fit-content;
 }
 
 .flex-about{
@@ -137,7 +134,7 @@ body {
 
 .Information{
     display: 1;
-    width: 35rem;
+    max-width: fit-content;
     height: fit-content;
     border: 3px solid rgb(12, 12, 12);
     border-radius: 10px;
