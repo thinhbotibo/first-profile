@@ -1,4 +1,6 @@
-
+html{
+    width: auto;
+}
 body {
      
     min-height: auto;
@@ -30,7 +32,7 @@ body {
 
 .body-header{
     background: black;
-    height: 200px;
+    height: 200rem;
     font-weight: auto;
     border-radius: 5px;
     margin:center;
@@ -40,7 +42,8 @@ body {
     text-align: center;
     width: 90%;
     /* Container's dimensions */
-    height: 400px;
+    height: 30rem;
+    max-width: 100rem;
     background: url("Back-ground.jpg") center center no-repeat;
     background-size: cover;
     margin: auto;
@@ -87,23 +90,25 @@ body {
 
 .flex-container {
     display: flex;
+    max-width: fit-content;
 }
 
 .flex-about{
     display: 2;
-    width: 800px;
-    height:fit-content;
+    width: auto;
+    height:auto;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 400px;
     padding: 10px;
-    margin-left:30px;
+    margin-left:auto;
     margin-right:auto;
     background-color: rgb(228, 228, 228);
     height: fit-content;
 }
 
 .about{
-    width: auto;
+    width:80%;
+    margin-right: auto;
     height: fit-content;
     border: 0.5 px solid rgb(12, 12, 12);
     border-radius: 10px;
@@ -113,6 +118,7 @@ body {
 }
 
 .about h2{
+    width: 100px;
     text-align:left;
     font-size:16;
     margin-top: 10px;
@@ -131,14 +137,14 @@ body {
 
 .Information{
     display: 1;
-    width: 450px;
+    width: 35rem;
     height: fit-content;
     border: 3px solid rgb(12, 12, 12);
     border-radius: 10px;
     margin-top: 30px;
-    margin-left:auto;
+    margin-left: 10%;
     padding: 10px;
-    margin-left:auto;
+
     background-color: rgb(255, 255, 255);
 }
 .Information h1{
