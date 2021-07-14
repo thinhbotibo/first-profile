@@ -4,8 +4,7 @@ body {
     min-height: auto;
     background-color: rgb(228, 228, 228); /* Default browser not supporting*/
     padding-bottom: 100px;
-    overflow-x: hidden;
-      
+    overflow-x: hidden;      
 }
 
 
@@ -38,7 +37,7 @@ body {
 
 .body-body .image1{
     text-align: center;
-    width: 90%;
+    width: 100%;
     /* Container's dimensions */
     height: 30rem;
     background: url("Back-ground.jpg") center center no-repeat;
